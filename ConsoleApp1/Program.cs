@@ -70,18 +70,17 @@
 
             #endregion
             #region Q10 Write a method PrintBookInfo(string title, int pages = 300) where pages is optional. Call it once with only a title, and once passing both a title and pages
-           //string title1= "300 ways to cook potatoes",title2= "500 ways to cook potatoes";
-           //PrintBookInfo(title1);
-           // PrintBookInfo(title2, 500);
+            //string title1= "300 ways to cook potatoes",title2= "500 ways to cook potatoes";
+            //PrintBookInfo(title1);
+            // PrintBookInfo(title2, 500);
             #endregion
-            #region Q11
+            #region Q11 Using the PrintBookInfo method from the question above, call it by naming the parameters, passing pages before title
+          //  string title3 = "100 ways to cook potatoes";int pages = 100;
+          //PrintBookInfo(pages: pages, title: title3);
             #endregion
             #region Q12
             #endregion
-            #region Q13
-            #endregion
-            #region Q14
-            #endregion
+
 
         }
         #region functions
