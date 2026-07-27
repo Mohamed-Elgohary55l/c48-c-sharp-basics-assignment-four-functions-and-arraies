@@ -19,7 +19,10 @@
             //       };
             //Console.WriteLine(shelfcopis[1, 0]);
             #endregion
-            #region Q3
+            #region Q3 Write a method called PrintWelcomeMessage that takes no parameters and prints "Welcome to the Library!". Call it from Main.
+            //PrintWelcomeMessage();
+
+
             #endregion
             #region Q4
             #endregion
@@ -45,5 +48,13 @@
             #endregion
 
         }
+        #region functions
+        //q3
+        //static void PrintWelcomeMessage()
+        //{
+        //    Console.WriteLine("Welcome to the Library!");
+        //}
+
+        #endregion
     }
 }
