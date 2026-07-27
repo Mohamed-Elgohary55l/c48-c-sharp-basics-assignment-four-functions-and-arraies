@@ -69,7 +69,10 @@
             //Console.WriteLine(TryGetPrice(title, out double price2) + ", Price: " + price2);
 
             #endregion
-            #region Q10
+            #region Q10 Write a method PrintBookInfo(string title, int pages = 300) where pages is optional. Call it once with only a title, and once passing both a title and pages
+           //string title1= "300 ways to cook potatoes",title2= "500 ways to cook potatoes";
+           //PrintBookInfo(title1);
+           // PrintBookInfo(title2, 500);
             #endregion
             #region Q11
             #endregion
@@ -138,7 +141,11 @@
         }
 
         //q10
-
+       static public void PrintBookInfo(string title, int pages = 300)
+        {
+           
+            Console.WriteLine($"Title: {title}, Pages: {pages}");
+        }
         #endregion
     }
 }
