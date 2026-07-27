@@ -33,9 +33,14 @@
 
 
             #endregion
-            #region Q5
+            #region Q5 Write a method AddBonusPages(int pages) that adds 50 to pages. Call it with a variable int pages = 400; and print pages afterward. What do you expect to see, and why?
+            int pages = 400;
+            AddBonusPages(pages);
+            Console.WriteLine(pages);
+            // no thing happend the pages is an int=> value type and the method is taking a copy of the value and adding 50 to it, but not changing the original variable.
             #endregion
             #region Q6
+
             #endregion
             #region Q7
             #endregion
@@ -60,12 +65,21 @@
         //static void PrintWelcomeMessage()
         //{
         //    Console.WriteLine("Welcome to the Library!");
-        
-        
+
+
         //q4
-       
 
+        //static void printBookTitle(string title)
+        //{
+        //    Console.WriteLine("Book title: " + title);
+        //}
+        //
 
+        //q5
+        static public int AddBonusPages(int pages) { 
+                   
+            return 50+pages;
+        }
 
         #endregion
     }
