@@ -34,13 +34,16 @@
 
             #endregion
             #region Q5 Write a method AddBonusPages(int pages) that adds 50 to pages. Call it with a variable int pages = 400; and print pages afterward. What do you expect to see, and why?
-            int pages = 400;
-            AddBonusPages(pages);
-            Console.WriteLine(pages);
+            //int pages = 400;
+            //AddBonusPages(pages);
+            //Console.WriteLine(pages);
             // no thing happend the pages is an int=> value type and the method is taking a copy of the value and adding 50 to it, but not changing the original variable.
             #endregion
-            #region Q6
-
+            #region Q6 Write a method ApplyDiscount(double[] prices) that subtracts 5 from prices[0]. Call it with double[] prices = { 25.5, 40.0 }; and print prices[0] afterward. What do you expect to see, and why?
+            //double[] prices = { 25.5, 40.0 };
+            //ApplyDiscount(prices);
+            //Console.WriteLine(prices[0]);
+            // the prices is a reference type so the method will change the original array and the output will be 20.5
             #endregion
             #region Q7
             #endregion
@@ -76,10 +79,25 @@
         //
 
         //q5
-        static public int AddBonusPages(int pages) { 
-                   
-            return 50+pages;
-        }
+        //static public int AddBonusPages(int pages) { 
+
+        //    return 50+pages;
+        //}
+        //q6
+        //static public void ApplyDiscount(double[] prices) {
+        //    prices[0] -= 5;
+        //}
+
+
+
+
+
+
+
+
+
+
+
 
         #endregion
     }
