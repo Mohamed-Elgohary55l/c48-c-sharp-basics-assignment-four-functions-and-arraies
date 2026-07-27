@@ -62,7 +62,12 @@
             //}
             //Console.WriteLine($"Length: { prices.Length}");
             #endregion
-            #region Q9
+            #region Q9   Write a method bool TryGetPrice(string title, out double price) that returns true and sets price to 25.5 if title is "Clean Code", otherwise returns false and sets price to 0. Call it
+            //string title = "clean code";
+            //Console.WriteLine(TryGetPrice(title, out double price)+ ", Price: " + price);
+            //title = "other book";
+            //Console.WriteLine(TryGetPrice(title, out double price2) + ", Price: " + price2);
+
             #endregion
             #region Q10
             #endregion
@@ -115,12 +120,24 @@
 
         //}
 
+        //Q9
 
+        static public bool TryGetPrice(string title, out double price)
+        {
 
+            if (title == "clean code")
+            {
+                price = 25.5;
+                return true;
+            }
+            else
+            {
+                price = 0;
+                return false;
+            }
+        }
 
-
-
-
+        //q10
 
         #endregion
     }
