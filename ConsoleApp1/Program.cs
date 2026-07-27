@@ -52,9 +52,15 @@
             // the result is different because we are passing the variable by reference so the method will change the original variable and the output will be 450
 
             #endregion
-            #region Q8
+            #region Q8 Write a method ReplaceArray(ref double[] prices) that replaces prices entirely with a new array { 10.0, 12.5, 15.0 }. Call it with your prices array and print prices.Length afterward.
+            //double[] prices = { 25.5, 40.0, 13 };
+            //ReplaceArray(ref prices);
+            //for (int i = 0; i < prices.Length; i++)
+            //{
+            //    Console.WriteLine(prices[i]);
 
-             
+            //}
+            //Console.WriteLine($"Length: { prices.Length}");
             #endregion
             #region Q9
             #endregion
@@ -100,8 +106,14 @@
         //{
         //    pages += 50;
         //}
+        //Q8
+        //static public void ReplaceArray(ref double[] prices) { 
+        //double[] prices2 = { 10.0, 12.5, 15.0 };
+        //    prices = prices2;
 
 
+
+        //}
 
 
 
