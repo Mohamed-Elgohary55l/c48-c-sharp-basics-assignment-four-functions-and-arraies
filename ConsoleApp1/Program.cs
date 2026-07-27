@@ -24,7 +24,14 @@
 
 
             #endregion
-            #region Q4
+
+
+
+            #region Q4 Write a method PrintBookTitle(string title) that prints "Book title: " + title. Call it with "Clean Code".
+            //string title = "clean code";
+            //printBookTitle(title);
+
+
             #endregion
             #region Q5
             #endregion
@@ -53,7 +60,12 @@
         //static void PrintWelcomeMessage()
         //{
         //    Console.WriteLine("Welcome to the Library!");
-        //}
+        
+        
+        //q4
+       
+
+
 
         #endregion
     }
