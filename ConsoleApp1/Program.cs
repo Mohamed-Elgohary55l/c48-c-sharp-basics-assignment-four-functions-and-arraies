@@ -45,9 +45,16 @@
             //Console.WriteLine(prices[0]);
             // the prices is a reference type so the method will change the original array and the output will be 20.5
             #endregion
-            #region Q7
+            #region Q7 Rewrite the method from question 5 as AddBonusPagesByRef(ref int pages) using ref. Call it and print pages afterward. How is the result different from question 5?
+            //int pages = 400;
+            //AddBonusPagesByRef(ref pages);
+            //Console.WriteLine(pages);
+            // the result is different because we are passing the variable by reference so the method will change the original variable and the output will be 450
+
             #endregion
             #region Q8
+
+             
             #endregion
             #region Q9
             #endregion
@@ -88,7 +95,11 @@
         //    prices[0] -= 5;
         //}
 
-
+        //q7
+        //static public void AddBonusPagesByRef( ref int pages)
+        //{
+        //    pages += 50;
+        //}
 
 
 
